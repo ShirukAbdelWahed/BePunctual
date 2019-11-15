@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/ic_wallpaper"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Bep"
+            android:textColor="#FFF9F9"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!--Input fuer Username -->
+
+    <EditText
+        android:id="@+id/edt_Benutzer"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="@string/Benutzer" />
+    <!--Input fuer Password -->
+
+    <EditText
+        android:id="@+id/edt_Passwort"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/ic_passwort"
+        android:hint="@string/Passwort"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edt_cpw"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/ic_passwort"
+        android:hint="@string/Passwortc"
+        android:inputType="textPassword" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        >
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="top"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/register"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_abbrechen"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/button_register"
+            android:text="@string/abbrechen"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

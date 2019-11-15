@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bep_BePunctual</string>
+    <string name="username">Username</string>
+    <string name="Passwort">   Passwort</string>
+    <string name="login">Login</string>
+    <string name="register">Registrieren</string>
+    <string name="Passwortc">   Passwort erneut</string>
+    <string name="abbrechen">abbrechen</string>
+    <string name="Benutzer">Benutzer</string>
+    <string name="password">Passwort</string>
+
+
+</resources>
