@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="230dp"
-        android:background="@drawable/ic_wallpaper"
+        android:background="@drawable/ic_wallpaper2"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Bep"
+            android:text="Beep"
             android:textColor="#FFF9F9"
             android:textSize="70sp"
             android:textStyle="bold" />
@@ -30,7 +30,7 @@
 
     <EditText
         android:id="@+id/edt_Benutzer"
-        android:layout_width="170dp"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
