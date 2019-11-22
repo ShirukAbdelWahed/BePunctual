@@ -36,6 +36,17 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        mButtonLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //wenn Button geklickt
+
+                Intent intent = new Intent(LoginActivity.this, DateActivity.class );
+                startActivity(intent);
+                finish();
+
+            }
+        });
 
     }
 }
