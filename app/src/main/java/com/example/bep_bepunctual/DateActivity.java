@@ -14,6 +14,10 @@ public class DateActivity extends AppCompatActivity {
         setContentView(R.layout.activity_date);
     }
 
+
+
+
+
     //Menü
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_menu__navigator_drawer,menu);
