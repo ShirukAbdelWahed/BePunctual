@@ -71,7 +71,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/login"
             android:textStyle="bold"
-            />
+            android:onClick="onCalendar"/>
 
         <Button
             android:id="@+id/button_register"
@@ -79,7 +79,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:text="@string/register"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="onRegister"/>
 
     </LinearLayout>
 

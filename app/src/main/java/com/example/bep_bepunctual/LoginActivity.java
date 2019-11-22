@@ -20,32 +20,17 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         mTextUsername = (EditText) findViewById(R.id.edt_Benutzer);
         mTextPassword = (EditText) findViewById(R.id.edt_password);
+    }
 
-        button_register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //wenn Button geklickt
+    public void onRegister(View v) {
+        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class );
+        startActivity(intent);
+    }
 
-                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class );
-                startActivity(intent);
-                finish();
-
-            }
-        });
-
-        button_login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //wenn Button geklickt
-                Intent intent = new Intent(LoginActivity.this, DateActivity.class );
-                startActivity(intent);
-                finish();
-
-            }
-        });
-
+    public void onCalendar(View v) {
+        Intent intent = new Intent(this, DateActivity.class );
+        startActivity(intent);
     }
 }
