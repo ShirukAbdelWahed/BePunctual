@@ -71,7 +71,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/login"
             android:textStyle="bold"
-            android:onClick="showDates"/>
+            />
 
         <Button
             android:id="@+id/button_register"

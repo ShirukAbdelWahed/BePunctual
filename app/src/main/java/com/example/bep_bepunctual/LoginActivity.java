@@ -11,8 +11,8 @@ import android.widget.EditText;
 public class LoginActivity extends AppCompatActivity {
     private EditText mTextUsername;
     private EditText mTextPassword;
-    private Button mButtonLogin;
-    private Button mButtonRegister;
+    private Button button_login;
+    private Button button_register;
 
 
     @Override
@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         mTextUsername = (EditText) findViewById(R.id.edt_Benutzer);
         mTextPassword = (EditText) findViewById(R.id.edt_password);
 
-        mButtonRegister.setOnClickListener(new View.OnClickListener() {
+        button_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //wenn Button geklickt
@@ -36,11 +36,10 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        mButtonLogin.setOnClickListener(new View.OnClickListener() {
+        button_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //wenn Button geklickt
-
                 Intent intent = new Intent(LoginActivity.this, DateActivity.class );
                 startActivity(intent);
                 finish();
