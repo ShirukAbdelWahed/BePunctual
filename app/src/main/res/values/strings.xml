@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bep_BePunctual</string>
+    <string name="app_name">BePunctual</string>
     <string name="username">Username</string>
     <string name="Passwort">   Passwort</string>
     <string name="login">Login</string>
